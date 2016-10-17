@@ -1,0 +1,716 @@
+/*
+Theme Name: Responsive Child
+Template: responsive
+Customized By: Gerard Greenidge and Keira Dooley
+Customizers URI: http://www.edunow.com and http://designbydooley.com
+Description: Responsive Child Theme is based on the Responsive Theme, a flexible foundation with fluid grid system that adapts your website to mobile devices and the desktop or any other viewing environment. Theme features 9 Page Templates, 11 Widget Areas, 6 Template Layouts, 4 Menu Positions and more. Powerful but simple Theme Options for full CMS control with easy Logo Upload and Social Networking. Responsive is WooCommerce Compatible, Multilingual Ready (WPML), RTL-Language Support, Retina-Ready, Search Engine Friendly, W3C Markup Validated and currently translated into over 45 languages. Cross-Browser compatible. Official support forum (http://cyberchimps.com/forum/free/responsive/)
+Tags: white,black,gray,light,custom-menu,custom-header,custom-background,one-column,two-columns,left-sidebar,right-sidebar,theme-options,threaded-comments,full-width-template,sticky-post,translation-ready,rtl-language-support,responsive-layout,fluid-layout,featured-images
+Version: 1.9.8.2.1463844164
+Updated: 2016-05-21 15:22:44
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,800italic,700italic,700,600italic,400italic,600,300italic,300);
+
+body{
+	width:100%;
+	background-color: #fff;
+	color:#333;
+	font-size: 14px;
+        -moz-font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
+        background: #efefef;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-smoothing: antialiased;
+        line-height: 1.35em;
+        text-rendering: optimizeLegibility;
+}
+
+body {
+font-size: 1.2142857142857142em; 
+line-height: 1.5em;
+}
+
+.site-name a, a {
+	color: #09a9cb;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+#container {
+	margin: 0;
+	max-width: 100%;
+	padding: 0;
+	background-color: #fff;
+}
+
+.skip-container {
+	display: block;
+	padding: 0;
+	position: relative;
+	background-color: #fff;
+	}
+
+.powered {
+    padding-top: 10px;
+}
+
+.badges {
+    text-align: center;
+    width: 100%;
+}
+
+#header {
+	margin: 0 auto;
+	background-color: #fff;
+	max-width: 1024px;
+	padding: 0px;
+}
+
+#header_wrapper {
+       max-width: 1024px;
+       margin: auto;
+}
+
+#widgets {
+    margin-top: 0;
+}
+
+#logo {
+    float: left;
+    margin: 25px 0 0 0;
+}
+
+.slider-pro {
+    clear: both;
+}
+
+#wrapper{
+	margin:0 auto;
+	max-width:1024px;
+}
+
+#wrapper {
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+background-color: #ffffff;
+border:0;
+clear: both;
+margin: 0 auto 20px auto;
+padding: 0 20px 20px 20px;
+position: relative;
+}
+.video_wrapper {
+clear: none; float: left;
+}
+
+.main-nav{
+    background-color: #ffffff;
+}
+.menu {
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to top, #ffffff, #ffffff);
+    clear: both;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#ffffff)";
+    margin: 0 auto;
+    width:1000px;
+}
+.menu a {
+    border-left: 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 36px;
+    font-weight: 800;
+    height: 45px;
+    line-height: 45px;
+    margin: 0;
+    padding: 0.3em 0.7em 0.5em 0.7em;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    white-space: nowrap;
+}
+.menu a:hover {
+    background: #00BCE4;
+}
+
+.menu .current_page_item a, .menu .current-menu-item a {
+    background-color: #ffffff;
+}
+
+.viewport-container.menu-container {
+    width: 375px;
+    float: right;
+    margin-top: 25px
+}
+
+.widget-wrapper {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 4px;
+    margin: 0 0 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#text-2.widget-wrapper {
+    border-radius: 0px;
+    margin: 0 0 0;
+    padding: 0;
+}
+
+.archive .post-title a, .home .post-title a {
+    text-decoration: none;
+    font-weight:800;
+}
+
+#content {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    max-width: 1024px;
+}
+
+.archive #content-blog, .home #content-blog {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#footer {
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+#footer a {
+    color: #09a9cb;
+    font-weight: 400;
+}
+#footer .grid.col-300 {
+    width: 26.25%;
+}
+#footer .grid.col-460 {
+    text-align: center;
+    width: 43%;
+}
+.footer_left {
+    text-align: right;
+}
+.footer_right {
+    text-align: left;
+    margin-top: 50px;
+}
+
+#footer .givetochc a {
+    background-color: #C1CD23;
+    color: white;
+    padding: 16px;
+    text-transform: uppercase;
+    font-size: 1.53em;
+    width: 129px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.givetochc {
+    margin: 0 auto 60px auto;
+}
+
+.bythenumbers1 {
+margin: 15px 70px 15px 35px;
+clear:both;
+}
+.bythenumbers2 {
+margin: 15px 70px 15px 35px;
+clear:both;
+}
+.bythenumbers3 {
+margin: 15px 70px 15px 35px;
+clear:both;
+}
+.bythenumbers3 p {
+    padding-top: 30px;
+}
+.bythenumbers4 {
+margin: 15px 70px 15px 35px;
+clear:both;
+}
+.bythenumbers5 {
+margin: 15px 70px 15px 35px;
+clear:both;
+}
+
+/* Headings */
+
+
+
+h1 {
+    font-size: 3.75em;
+    line-height: 1em;
+    margin-bottom: .25em;
+    margin-top: 0em;
+    color: #000000;
+    font-weight: 800;
+}
+
+h1.entry-title.post-title {
+    display: none;
+}
+
+h2 {
+    font-size: 1.3142857142857142em;
+    margin-bottom: .25em;
+    margin-top: .25em;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1.2em;
+    clear:both;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: .05em;
+    margin-top: .75em;
+    color: #333;
+    line-height: 1.2em;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: .9em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    color: #333;
+}
+h5 {
+    font-size: 1em;
+    margin-bottom: 1.125em;
+    margin-top: 1.125em;
+    color: #999;
+}
+h6 {
+    font-size: .9em;
+    margin-bottom: 1.285em;
+    margin-top: 1.285em;
+    color: #aaa;
+}
+
+p, hr, dl, pre, form, table, address, blockquote {
+    margin: .5em 0 .75em 0;
+
+}
+ul, ol {
+    margin: 0 1.5em .5em 0;
+    padding-left: 2.0em;
+}
+caption {
+    font-size: 1.375em;
+    margin-bottom: 0;
+    margin-top: 1.2em;
+    color: #666;
+    font-weight: 600;
+}
+
+th {
+    font-weight: 600;
+    background: #EDECE9;
+}
+
+.chc-red{
+    color: #F06531;
+}
+
+.chc-yellow{
+    color:#C1CD23;
+}
+
+.chc-orange{
+    color: #F6A01A;
+}
+
+/*Homepage Styles*/
+
+.archive .post-entry, .home .post-entry {
+    width: 480px;
+    float: left;
+    margin: 0 31px 32px 31px;
+    clear: none;
+    min-height: 400px;
+}
+
+.archive #wrapper, .home #wrapper{
+   max-width:1086px;
+}
+
+
+.archive img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image, .home img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    /*border: 1px solid #ccc2b6; Removed per Keira comments... will determine if this needs to come back*/
+}
+
+.read-more {
+    display: none;
+}
+
+body.archive h1.entry-title.post-title, body.home h1.entry-title.post-title { /*Hide page title on Home*/
+    display: none;
+}
+
+div#widgets.home-widgets {
+    clear: both;
+}
+
+.single div#widgets.home-widgets {
+    display: none;
+}
+
+.single h1 {
+    font-size: 1.85em;
+    font-weight: 800;
+}
+
+h2.post-title {
+font-size:1.5142857142857142em;
+}
+
+.post-excerpt {
+    font-size:1.175em;
+    line-height: 1.2em;
+}
+body.home .post-excerpt {
+    font-weight: 300;
+}
+.single .post-excerpt {
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+
+/*img.wp-post-image, img.attachment-full, img.attachment-large, img.attachment-medium, img.attachment-thumbnail {
+    display: block;
+    margin: 0px auto 10px;
+    width: 100%;
+}*/
+
+img.wp-post-image, img.attachment-full, img.attachment-large, img.attachment-medium, img.attachment-thumbnail {
+    display: block;
+    margin: 0px auto 10px;
+    width: 100%;
+}
+
+body.single img.wp-post-image,body.single  img.attachment-full,body.single  img.attachment-large,body.single  img.attachment-medium,body.single  img.attachment-thumbnail {
+    display: block;
+    margin: 0px auto 33px;
+    width: 100%;
+}
+
+.post-entry .col-380 {  /*Donor Roll two-columns*/
+    width: 43.425531914894%;    
+    float: left;
+    margin: 25px 30px 40px 30px;
+}
+
+
+/* Post Styles */
+div#publication-info {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 38px;
+    color: #887E6E;
+    font-weight: 300;
+}
+div#issue-number {
+    clear: both;
+    max-width: 100%;
+    text-align: right;
+    margin: 0 106px 20px 0;
+    color: #887E6E;
+    font-weight: 300;
+}
+.wp-caption {
+    background: #ffffff;
+    border: 0;
+    max-width: 96%;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    min-height: 275px;
+}
+h1.post-headline{
+    font-size: 3em;
+}
+
+.chc-yellow-outline {
+    border: 1px solid #D2DE24;
+    padding: 20px 20px 5px 20px;
+    border-bottom: 14px solid #D2DE24;
+}
+
+.chc-blue-outline h2, .chc-yellow-outline h2 {
+    color: #333;
+}
+
+.chc-blue-outline {
+    border: 1px solid #00BCE4;
+    padding: 20px 20px 5px 20px;
+    border-bottom: 14px solid #00BCE4;
+}
+
+div.quotes {
+    background: url("/connections/wp-content/uploads/gold-quote-line_11.png") top center no-repeat;
+    margin: 0 auto;
+    padding: 50px;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+div.blue-quotes {
+    background: url("/connections/wp-content/uploads/blue-quote-line_07.png") top center no-repeat;
+    margin: 0 auto;
+    padding: 50px;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+/*ul.donor-roll {
+    display: inline;
+    list-style-type: none;
+    float: left;
+    width: 100%;
+}
+.donor-roll li {
+    float: left;
+    border: 2px solid #00BCE4;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+    min-height: 50px;
+}
+
+.donor-roll li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    height: 50px;
+    width: 100%;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.donor-roll li a:hover {
+    text-decoration: underline;
+    color: #00BCE4;
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+*/
+
+
+ul#donor-roll {
+    display: inline-block;
+    list-style: none;
+    margin: 0px auto;
+    padding: 0;
+}
+
+#donor-roll li {
+    float: left;
+    border: 2px solid #00BCE4;
+    margin: 10px;
+    width: 20%;
+}
+
+#donor-roll li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    min-height: 50px;
+    font-weight: 600;
+    line-height: 1.2em;
+    padding: 10px;
+    text-align: center;
+}
+
+#donor-roll li a:hover {
+    background: #00BCE4;
+    color: #fff;
+    display: block;
+}
+
+#donor-roll .one-line a {
+    padding: 20px 0 0 0;
+}
+#donor-roll .blue-button a {
+    background: #00BCE4;
+    color: #fff;
+    display: block;
+}
+#donor-roll .blue-button a:hover {
+    background: #fff;
+    color: #00BCE4;
+}
+
+.addthis_toolbox {
+    text-align: center;
+    width: 100%;
+    clear:both;
+}
+
+/*** Mobile ***/
+
+@media screen and (max-width: 2048px){
+.js .main-nav .menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+.js .main-nav #responsive_current_menu_item {
+    display: none;
+    padding: 5px 40px 5px 10px;
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.main-nav #responsive_current_menu_item {
+    display: block;
+}
+
+.js .main-nav .menu li {
+    float: none;
+    background-color: #ffffff;
+    border: none;
+}
+
+.js .main-nav .menu li a {
+    color: #444444;
+    font-size: 13px;
+    font-weight: normal;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    text-shadow: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.js .main-nav {
+    position: relative;
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to top, #ffffff, #ffffff);
+    clear: both;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#ffffff)";
+    margin: 0 auto;
+}
+
+.js .main-nav a#responsive_menu_button {
+		position: absolute;
+		display: block;
+		top: -50px;
+		left: 100%;
+		height: 40px;
+		width: 55px;
+		margin-left: -70px;
+		background: url('/connections/assets/menu-icon.png') 0 5px no-repeat;
+		cursor: pointer;
+	}
+
+	.js .main-nav a#responsive_menu_button.responsive-toggle-open {
+		background: url('/connections/assets/menu-icon.png') 0 5px no-repeat;
+	}
+
+}
+
+@media screen and (max-width: 800px){
+
+.archive .post-entry, .home .post-entry {
+    width: 100%;
+    float: none;
+    margin: 0 0 20px 0;
+    clear: both;
+}
+
+#footer .grid.col-300, #footer .grid.col-460 {
+width: 100%;
+text-align: center
+}
+#donor-roll li {
+    width: 100%;
+    margin: 5px 0;
+}
+div.quotes, div.blue-quotes {
+padding: 50px 25px;
+}
+}
+@media screen and (max-width: 768px) {
+
+#logo {
+    float: none;
+    text-align:center;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+#top-widget {
+    float: none;
+    text-align:center;
+    width: 100%;
+}
+#top-widget #text-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    float: none;
+}
+
+#top-widget #text-4 {
+    float: none;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+img.alignright, img.alignleft {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 650px){
+.js .main-nav .menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 46px;
+    z-index: 1000;
+}
+
+
+
+}
